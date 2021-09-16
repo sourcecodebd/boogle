@@ -1,4 +1,20 @@
 const titleHead = document.getElementById('title-head');
+
+const searchBtn = document.getElementById("button-search");
+const searchField = document.getElementById("search-field");
+searchField.addEventListener("keypress", function (e) {
+    /* if (e.keyCode == 13) {
+        searchBtn.click();
+    } */
+    // or
+    if (e.key == 'Enter') {
+        searchBtn.click();
+    }
+});
+
+
+
+
 // load book Archive from API
 const searchBooks = () => {
     const searchField = document.getElementById('search-field');
