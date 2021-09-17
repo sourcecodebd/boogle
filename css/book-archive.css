@@ -4,6 +4,7 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../media/library.jpg');
+    background-attachment: fixed;
     background-repeat: repeat;
     background-size: cover;
 }
